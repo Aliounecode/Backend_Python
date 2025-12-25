@@ -1,0 +1,12 @@
+Pour faire cela vous devez vous rendre dans le dossier concerne 
+cd nom_doosier |
+               |
+               
+
+
+Pour initier la base de donnee : 
+python -m uvicorn main:app --reload
+
+Pour remplir la base de donnee : 
+python seed.py 
+
