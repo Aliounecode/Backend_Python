@@ -15,8 +15,8 @@ for name in classes_names:
 db.commit()
 
 # 2. Étudiants
-first_names = ["Jean", "Marie", "Paul", "Sophie", "Pierre", "Julie"]
-last_names = ["Dupont", "Martin", "Bernard", "Thomas", "Petit"]
+first_names = ["Alioune", "Fatim", "Massamba", "Mor", "Mouhamed", "Mbene"]
+last_names = ["Diop", "Diop", "Diagne", "Sokhna", "Thiam"]
 
 for i in range(30):
     cl = random.choice(classes_db) # on recharge pour avoir les IDs
